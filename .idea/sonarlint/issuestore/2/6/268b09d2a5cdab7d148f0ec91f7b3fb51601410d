@@ -1,0 +1,8 @@
+
+¶
+java:S6548
+"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(²¡ïõ8·ÍÇ¥ 1
+Y
+java:S1854"7Remove this useless assignment to local variable "mbs".(©„Õÿÿÿÿÿ8‘«Æ¥ 1
+J
+java:S1481"(Remove this unused "mbs" local variable.(©„Õÿÿÿÿÿ8’«Æ¥ 1

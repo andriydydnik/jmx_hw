@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+App -> MyBean: Run & register
+App <-- MyBean: OK
+
+JVisualVM -> MyBean: Authentication Request
+MyBean --> JVisualVM: Authentication Response
+
+JVisualVM -> MyBean: Get value
+
+MyBean -> App: getInstance()
+App --> MyBean: app
+
+MyBean -> app: getValue()
+app --> MyBean: value
+
+JVisualVM <-- MyBean: value response
+
+@enduml
